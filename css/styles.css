@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Encabezado */
+.header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.logo{
+    /* background-color: #1ED9E5; */
+    height: inherit;
+    width: 80px;
+    margin: 0px 10px;
+    position: relative;
+    left: 100px;
+}
+.img-logo{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.nav{
+    /* background-color: lightcoral; */
+    height: 80px;
+    width: 300px;
+    margin: 10px;
+    position: absolute;
+    right: 100px;
+}
+.menu li{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 15px;
+  padding: 10px;
+  /* background-color: blueviolet; */
+  font-size: 1em;
+  color: #270aca;
+}
+.menu li:hover{
+    background-color: #abdbe3;
+    border: 3px solid #abdbe3;
+    color: #e1f5f7;
+    border-radius:5px;
+}
+
+/* Portada */
+.portada{
+    width: 100%;
+    height: 350px;
+    background-color: #abdbe3;
+    margin-top: 10px;
+    display:flex;
+    align-items: center;
+}
+
+.titulo{
+    width: 280px;
+    height: 250px;
+    /* background-color: #CDE51E; */
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 220px;
+    margin-top: 10px;
+}
+h1{
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 50px;
+}
+.img{
+    width: 522px;
+    height: 300px;
+    background-color: #270aca;
+    margin-top: 10px;
+    position: absolute;
+    right: 100px;
+}
+
+/* Productos */
+.padre_superior{
+    height: auto;
+    width: 100%;
+    /* background-color: #DDB308; */
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.caja1{
+    width: 295px;
+    height: 350px;
+    /* background-color: blue; */
+    margin-top: 50px;
+    border: 2px solid #00cc99;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.caja2{
+    width: 295px;
+    height: 350px;
+    /* background-color: blue; */
+    margin-top: 50px;
+    border: 2px solid #00cc99;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.caja3{
+    width: 295px;
+    height: 350px;
+    /* background-color: blue; */
+    margin-top: 50px;
+    border: 2px solid #00cc99;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.padre_inferior{
+    height: auto;
+    width: 100%;
+    /* background-color: #dd0861; */
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.caja4{
+    width: 295px;
+    height: 350px;
+    /* background-color:green; */
+    border: 2px solid #00cc99;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+ .caja5{
+    width: 295px;
+    height: 350px;
+    /* background-color:green; */
+    border: 2px solid #00cc99;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.caja6{
+    width: 295px;
+    height: 350px;
+    /* background-color:green; */
+    border: 2px solid #00cc99;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+} 
+
+.parrafo{
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+    width: 110px;
+    height: 42px;
+    margin-top: 27px;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+    border: 3px solid #00cc66;
+    background-color: #00cc66;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color:#66ff66;
+    border: 3px solid #66ff66;
+    color: white;
+}
+
+.pie{
+    width: 100%;
+    height: 110px;
+    background-color: #abdbe3;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-size: 20px;
+    position: absolute;
+    left: 210px;
+    color: #ffffff;
+    font-weight: bolder;
+}
+.logo_pie{
+    width: 100px;
+    height: 100px;
+    /* background-color: coral; */
+    position: absolute;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_inferior{
+    height: 50%;
+    width: 50%;
+}
+
+.copy{
+    position: absolute;
+    right: 100px;
+    font-size: 18px;
+    color: #ffffff;
+}
