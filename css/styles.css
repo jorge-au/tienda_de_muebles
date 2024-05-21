@@ -11,49 +11,37 @@
     width: 100%;
     height: 70px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     position: sticky;
     top: 0px;
     z-index: 10;
 }
 .logo{
-    /* background-color: #1ED9E5; */
-    height: inherit;
     width: 80px;
-    margin: 0px 10px;
-    position: relative;
-    left: 100px;
 }
 .img-logo{
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    width: 100%;
 }
 
 .nav{
-    /* background-color: lightcoral; */
-    height: 80px;
-    width: 300px;
-    margin: 10px;
-    position: absolute;
-    right: 100px;
+    width: 34%;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+
 }
 .menu li{
-  display: inline-block;
-  margin-top: 30px;
-  margin-left: 15px;
-  padding: 10px;
-  /* background-color: blueviolet; */
-  font-size: 1em;
-  color: #270aca;
-}
-.menu li:hover{
-    background-color: #abdbe3;
-    border: 3px solid #abdbe3;
-    color: #e1f5f7;
-    border-radius:5px;
+    width: 100px;
+    font-size: 1.1em;
+    color: #270aca;
+   list-style-type: none;
+   cursor: pointer;
+  
 }
 
 /* Portada */
@@ -239,4 +227,57 @@ h2{
     right: 100px;
     font-size: 18px;
     color: #ffffff;
+}
+
+/* Media queries para ajustar los estilos en dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    .header{
+        background-color: #ffffff;
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+    }
+    .logo{
+        /* background-color: #1ED9E5; */
+        height: inherit;
+        width: 80px;
+        margin: 0px 10px;
+        position: relative;
+        left: 100px;
+    }
+    .img-logo{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+.nav{
+    /* background-color: lightcoral; */
+    height: 80px;
+    width: 300px;
+    margin: 10px;
+    position: absolute;
+    right: 100px;
+}
+.menu li{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 15px;
+  padding: 10px;
+  /* background-color: blueviolet; */
+  font-size: 1em;
+  color: #270aca;
+}
+.menu li:hover{
+    background-color: #abdbe3;
+    border: 3px solid #abdbe3;
+    color: #e1f5f7;
+    border-radius:5px;
+}
 }
